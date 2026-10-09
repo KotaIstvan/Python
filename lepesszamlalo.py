@@ -15,6 +15,6 @@ for i in range(len(lepesek_szama)):
   
 
 print(f"A lépések összege: {ossz} db")
-print(f"A lépések átlaga egy nap: {ossz/10} db")
+print(f"A lépések átlaga egy nap: {ossz/len(lepesek_szama)} db")
 print(f"A legtöbb lépés a {nap}. napon volt: {legtobb_lepesek}")
 print(f"{mini} napon volt legalább 10000 lépés")
